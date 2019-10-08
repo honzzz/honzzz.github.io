@@ -1,0 +1,33 @@
+html, body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* remove ugly dotted lines around clicked links and buttons in FF */
+a { outline: none; }
+button::-moz-focus-inner { border: 0; }
+
+/* remove highlight border around selected form controls in Chrome and Safari */
+*:focus { outline: none; }
+
+a {
+    color: #ff6500;
+    text-decoration: none;
+}
+
+p {
+    color: #333;
+    line-height: 26px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 100px 10px;
+    max-width: 740px;
+}
+
